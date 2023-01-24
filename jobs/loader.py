@@ -22,4 +22,12 @@ class Loader:
         pass
     
     def writeCsvFile(self, path:String)->Boolean:
+        """_summary_
+
+        Args:
+            path (String): _description_
+
+        Returns:
+            Boolean: _description_
+        """
         pass
