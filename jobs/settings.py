@@ -1,0 +1,1 @@
+LOGGING_DIR="../resources/logs"
