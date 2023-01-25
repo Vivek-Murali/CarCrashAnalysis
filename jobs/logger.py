@@ -1,11 +1,11 @@
 import os
 import logging 
-import settings   
+from .settings import settings  
 from pyspark.sql import SparkSession
  
 
 class Logger(object):
-    def __init__(self, name):
+    def __init__(self, name,PARENT_DIR):
         """_summary_
             Formatting Python log messages
         """
@@ -13,7 +13,7 @@ class Logger(object):
         logger = logging.getLogger('log_namespace.%s' % name)    # log_namespace can be replaced with your namespace 
         logger.setLevel(logging.DEBUG)
         if not logger.handlers:
-            file_name = os.path.join(settings.LOGGING_DIR, '%s.log' % name)    
+            file_name = os.path.join(os.path.join(PARENT_DIR,settings.LOGGING_DIR), '%s.log' % name)    
             handler = logging.FileHandler(file_name)
             formatter = logging.Formatter('%(asctime)s %(levelname)s:%(name)s %(message)s')
             handler.setFormatter(formatter)
