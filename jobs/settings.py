@@ -1,2 +1,2 @@
 LOGGING_DIR="../resources/logs"
-EXCLUDED_STATES = ['NA','Unknown','Other']
+EXCLUDED_STATES = ['NA','Unknown','Other','UN']

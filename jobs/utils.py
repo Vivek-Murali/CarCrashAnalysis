@@ -1,9 +1,10 @@
 from logger import Logger
 import json
+import os
 
 class Utility:
     def __init__(self):
-        self.logger = Logger()
-
+        pass
+        
     def getConfig(self):
         pass
