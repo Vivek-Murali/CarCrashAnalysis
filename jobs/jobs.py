@@ -105,7 +105,7 @@ class Jobs:
         except Exception as exception:
             print('Error::{}'.format(exception)+"\n"+"Args:: chargesDataframe:DataFrame, unitsDataframe:DataFrame, personDataframe:DataFrame")
         finally:
-            return finalTempDataframe.withColumn('rn',row_number().over(Window.orderBy(col('count').desc())).filter("rn <= 5").select('VEH_MAKE_ID')) 
+            return finalTempDataframe.withColumn('rn',row_number().over(Window.orderBy(col('count').desc()))).filter("rn <= 5").select('VEH_MAKE_ID')
     
     def noDamageProperty(self,**kwargs)-> DataFrame:
         """_summary_

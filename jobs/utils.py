@@ -4,7 +4,13 @@ import os
 
 class Utility:
     def __init__(self):
-        pass
+        self.config = None
         
     def getConfig(self):
+        return self.config
+    
+    def loadConfig(self):
         pass
+    
+    
+    

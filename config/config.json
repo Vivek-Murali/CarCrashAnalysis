@@ -1,1 +1,13 @@
-{}
+{
+    "resource":{
+        "source_path":"",
+        "destination_path":""
+    },
+    "variables":{
+        "APPDIR":""
+    },
+    "functions":{
+        "id":""
+    },
+    "version":"v1.1.0"
+}
