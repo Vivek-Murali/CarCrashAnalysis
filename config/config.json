@@ -1,13 +1,15 @@
 {
     "resource":{
-        "source_path":"",
-        "destination_path":""
+        "source_path":"resources/raw",
+        "destination_path":"resources/processed"
     },
     "variables":{
-        "APPDIR":""
+        "APPDIR":"/home/sharpnel/Documents/CarCrashAnalysis-BCG"
     },
     "functions":{
-        "id":""
+        "question_id":"1",
+        "mode": "overwrite"
     },
-    "version":"v1.1.0"
+    "version":"v1.1.0",
+    "app_name":"analytics"
 }
