@@ -5,6 +5,7 @@ import argparse
 
 
 class Utility:
+    """Project Utility class"""
     def __init__(self):
         self.config = None
         
@@ -18,7 +19,6 @@ class Utility:
     def _parseArguments(self):
         parser = argparse.ArgumentParser()
         parser.add_argument("--config", required=True, type=str, default="../config/config.json")
-        parser.add_argument("--job", required=True, type=str, default="1")
         args = parser.parse_args()
         self.loadConfig(args.config)
     

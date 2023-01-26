@@ -10,7 +10,6 @@ if __name__ == '__main__':
     LOG = Logger("Runner",args['variables']['APPDIR'])
     LOG._logger.info(args)
     spark = SparkSession.builder.appName(args.get("app_name")).getOrCreate()
-    # spark.sparkContext.setLogLevel(args.get("spark_log_level"))
     Runner = JobBuilder(sparkSession=spark,config=args)
-    print(Runner())
+    Runner()
     

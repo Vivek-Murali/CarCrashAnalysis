@@ -11,6 +11,8 @@ from .logger import Logger
 
 
 class Job(object):
+    """Analysis Job Function
+    """
     def __init__(self):
         # self.logger = Logger()
         pass
@@ -154,7 +156,7 @@ class Job(object):
         finally:
             return resultDataframe
     
-    def bodyStyleWiseCrash(self,Dataframe:DataFrame,**kwargs)-> DataFrame:
+    def bodyStyleWiseCrash(self,**kwargs)-> DataFrame:
         """_summary_
             Get top 5 body style with the top ethnic user group.       
         Args:

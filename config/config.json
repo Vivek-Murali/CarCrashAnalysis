@@ -7,9 +7,9 @@
         "APPDIR":"/home/sharpnel/Documents/CarCrashAnalysis-BCG"
     },
     "functions":{
-        "question_id":"1",
+        "question_id":8,
         "mode": "overwrite"
     },
-    "version":"v1.1.0",
+    "version":"v1.2.0",
     "app_name":"analytics"
 }
