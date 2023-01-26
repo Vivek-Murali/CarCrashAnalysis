@@ -1,5 +1,5 @@
 class settings:
-
+    """Project Settings"""
     LOGGING_DIR="resources/logs"
     EXCLUDED_STATES = ['NA','Unknown','Other','UN']
     QUESTION_MAPPING = {

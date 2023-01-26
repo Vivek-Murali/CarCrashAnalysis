@@ -6,7 +6,7 @@ from pyspark.sql import SparkSession
 
 class Logger(object):
     def __init__(self, name,PARENT_DIR):
-        """_summary_
+        """
             Formatting Python log messages
         """
         name = name.replace('.log','')
