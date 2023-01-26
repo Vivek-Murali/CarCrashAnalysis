@@ -1,0 +1,17 @@
+kafka-python==2.0.2
+openpyxl==3.0.10
+pandas==1.4.4
+pep8==1.7.1
+py4j==0.10.9.5
+pycosat==0.6.3
+pycurl==7.45.1
+PyDispatcher==2.0.5
+pyls-spyder==0.4.0
+PyQt5-sip==12.11.0
+pyspark==3.3.1
+pytest==7.1.2
+python-lsp-jsonrpc==1.0.0
+PyYAML==6.0
+seaborn==0.11.2
+matplotlib==3.5.2
+numpy==1.24.1
