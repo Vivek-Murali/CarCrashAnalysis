@@ -175,7 +175,7 @@ git clone https://github.com/Vivek-Murali/CarCrashAnalysis-BCG
   Run the application by using the following command.
 
   ```
-  spark-submit runner.py --config config/config.json
+  spark-submit --master local[*] runner.py --config config/config.json
   ```
 
   <b>Note</b>: runner.py is the main runner file invokes the jobbuilder class to build and execute analysis based on question_id mentioned in config.json file.
